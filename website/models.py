@@ -19,3 +19,5 @@ class pricemodel(models.Model):
     price= models.CharField(max_length=100, verbose_name="model verbose name")
     offer= models.CharField(max_length=100)
 
+# class Excelfileupload(models.Model):
+#     excel_file_upload = models.FileField(upload_to="excel")
