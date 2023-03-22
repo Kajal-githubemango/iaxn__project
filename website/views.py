@@ -42,3 +42,5 @@ def contactlist(request):
     return render(request, 'contact.html')
 def test(request):
     return render(request, 'test.html')
+def kkk(request):
+    return render(request, 'test.html')
