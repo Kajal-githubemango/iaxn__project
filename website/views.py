@@ -6,8 +6,6 @@ from .models import servicesmodel, pricemodel
 
 def home(request):
     if request.method=='POST':
-    #   email= request.POST['email']
-    #   password= request.POST['password']
       name= request.POST['name']
       address= request.POST['address']
       city= request.POST['city']
@@ -44,3 +42,4 @@ def test(request):
     return render(request, 'test.html')
 def kkk(request):
     return render(request, 'test.html')
+
